@@ -1,4 +1,4 @@
-fortyTwo.Docs
+# 42 Web API Documentation
 =============
 
-[ApplicationAuthentification](https://github.com/funkyOne/fortyTwo.Docs/blob/master/ApplicationAuthentification.md)
+### [Application Authentification](https://github.com/funkyOne/fortyTwo.Docs/blob/master/ApplicationAuthentification.md)
