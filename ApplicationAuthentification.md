@@ -5,15 +5,16 @@ Agent should have `Fortytwo-AppKey` and `Fortytwo-AppSecret` header present in t
   
 ## App-specific request headers 
 ```
-  Fortytwo-AppKey:sampleApp
-  Fortytwo-AppSecret:DSFER45ERF34
+  Fortytwo-AppKey:test
+  Fortytwo-AppSecret:7f989d7216f64921a4660762af60b102
 ```
 
 ## User-specific request headers 
 
-After successful login operation the client will get userId and sesion token
+On successful login the client app will receive `userId` and `sesion token`. To be able to use any user-specific API methods developer should sign every request with that data.
+
 
 ```
-  Fortytwo-UserId:
-  Fortytwo-SessionToken:
+  Fortytwo-UserId:c7a2fa33-cb74-4831-b324-6fcf77d1b682
+  Fortytwo-SessionToken:7f989d7216f64921a4660762af60b102
 ```
