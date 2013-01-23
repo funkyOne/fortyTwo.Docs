@@ -1,15 +1,19 @@
-# 42 Web API Documentation
-=============
+#42 Web API
 
-**Staging url**
+**Staging URL:**
 ```
 http://7bdeaa4e4d2f4fcaa4090f9fae5966df.cloudapp.net/
 ```
 
-**Production url**
+**Production URL:**
 ```
 http://fortytwo.cloudapp.net/
 ```
 
-### [Application Authentification](https://github.com/funkyOne/fortyTwo.Docs/blob/master/ApplicationAuthentification.md)
+## General info
+### [Signing requests](https://github.com/funkyOne/fortyTwo.Docs/blob/master/ApplicationAuthentification.md)
+
+
+## Activities
+
 ### [User Management](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md)
