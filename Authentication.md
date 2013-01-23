@@ -15,7 +15,7 @@ Fortytwo-AppSecret:7f989d7216f64921a4660762af60b102
 
 ## User-specific request headers 
 
-On successful login the client app will receive `userId` and `session token`. Every call to user-specific API method
+On successful login the client app will receive `userId` and `session token`. Every user-specific API method call
 should be signed with this data.
 
 
