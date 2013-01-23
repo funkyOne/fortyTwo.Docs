@@ -1,7 +1,7 @@
 #Application Authentification
 
 Any agent shouldn't be able to make API calls without proper Authentication Keys.
-Agent should have `Fortytwo-AppKey` and `Fortytwo-AppSecret` header present in the call. This Keys represent an app registered with Fortytwo.
+Agent should have `Fortytwo-AppKey` and `Fortytwo-AppSecret` header present in the call. These keys represent an app registered with Fortytwo.
   
 ## App-specific request headers 
 ```http 
