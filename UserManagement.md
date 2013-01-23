@@ -71,47 +71,5 @@ gender
 ###Response
 This will return `201 Created` along with the current JSON/XML representation of the user if the creation was a success. See the **Get user** endpoint for more info.
 
-#Authenticating a User 
-
-Every login method on successful login  sends back the following User object in response:
-
-
-##Password login
-```
-POST /login
-```
-### Query string parameters
-userId
-: _Required_ **string** - Logged user id
-
-password
-: _Required_ **string** - User password
-
-##Facebook login
-```
-POST /login/facebook
-```
-
-### Query string parameters
-userId
-: _Optional_ **string** - Id of user to find, if it's empty a new user is created and his userId is returned in body
-
-accessToken
-: _Required_ **string** - Access token got from Facebook
-
-##Twitter login
-```
-POST /login/twitter
-```
-### Query string parameters
-userId
-: _Optional_ **string** - Id of user to find, if it's empty a new user is created and his userId is returned in body
-
-accessToken
-: _Required_ **string** - OAuth access token got from Twitter
-
-accessTokenSecret
-: _Required_ **string** - OAuth access token secret got from Twitter
-
 # Defining attributes for a user
 tbd
