@@ -40,6 +40,7 @@ POST /login
 ### Query string parameters
 email
 : _Required_ **string** - User email
+
 password
 : _Required_ **string** - User password
 
