@@ -7,8 +7,8 @@ For staging access URLs start with `http://7bdeaa4e4d2f4fcaa4090f9fae5966df.clou
 
 
 ## Authentication
-All request to the API must be signed. If you don't supply authentification info, you will get a `400 Bad Request`.
-Read the [authentication guide](https://github.com/funkyOne/fortyTwo.Docs/blob/master/ApplicationAuthentification.md) to get started.
+All request to the API must be signed. If you don't supply authentication info, you will get a `400 Bad Request`.
+Read the [authentication guide](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md) to get started.
 
 ## XML or JSON, you decide
 The FortyTwo server can serve and handle JSON or XML data. It depends on `ContenType` request header you specify.
@@ -17,7 +17,7 @@ The FortyTwo server can serve and handle JSON or XML data. It depends on `Conten
 
 **Documentation is mostly in JSON, it's preferred and more documented.**
 
-### [Signing requests](https://github.com/funkyOne/fortyTwo.Docs/blob/master/ApplicationAuthentification.md)
+### [Authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md)
 
 
 ## API ready for use
