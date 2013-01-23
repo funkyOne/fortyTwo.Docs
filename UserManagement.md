@@ -9,6 +9,9 @@ User Management
 id
 : _Required_ **string** - Id of user to find
 
+
+### Response
+
 ```json
 {
    "id": "c7a2fa33-cb74-4831-b324-6fcf77d1b682",
@@ -109,3 +112,6 @@ accessToken
 
 accessTokenSecret
 : _Required_ **string** - OAuth access token secret got from Twitter
+
+# Defining attributes for a user
+
