@@ -34,7 +34,7 @@ gender
 ###Response
 user object
 
-#Login methods
+#Authenticating a User 
 
 Every login method on successful login  sends back the following User object in response:
 ```json
