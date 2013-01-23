@@ -33,14 +33,13 @@ Fortytwo-SessionToken: 7f989d7216f64921a4660762af60b102
 Every login method on successful login  sends back the following [user](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md#response) object in response.
 
 
-##Password login
+##By password
 ```
 POST /login
 ```
 ### Query string parameters
-userId
-: _Required_ **string** - Logged user id
-
+email
+: _Required_ **string** - User email
 password
 : _Required_ **string** - User password
 
