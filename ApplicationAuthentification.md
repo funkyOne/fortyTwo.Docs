@@ -1,4 +1,4 @@
-#Application Authentification
+#Authenticating an app
 
 Any agent shouldn't be able to make API calls without proper Authentication Keys.
 Agent should have `Fortytwo-AppKey` and `Fortytwo-AppSecret` header present in the call. These keys represent an app registered with Fortytwo.
@@ -27,3 +27,45 @@ Fortytwo-UserId: c7a2fa33-cb74-4831-b324-6fcf77d1b682
 Fortytwo-SessionToken: 7f989d7216f64921a4660762af60b102
 ...
 ```
+
+#Authenticating a user 
+
+Every login method on successful login  sends back the following [user](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md#response) object in response.
+
+
+##Password login
+```
+POST /login
+```
+### Query string parameters
+userId
+: _Required_ **string** - Logged user id
+
+password
+: _Required_ **string** - User password
+
+##Facebook login
+```
+POST /login/facebook
+```
+
+### Query string parameters
+userId
+: _Optional_ **string** - Id of user to find, if it's empty a new user is created and his userId is returned in body
+
+accessToken
+: _Required_ **string** - Access token got from Facebook
+
+##Twitter login
+```
+POST /login/twitter
+```
+### Query string parameters
+userId
+: _Optional_ **string** - Id of user to find, if it's empty a new user is created and his userId is returned in body
+
+accessToken
+: _Required_ **string** - OAuth access token got from Twitter
+
+accessTokenSecret
+: _Required_ **string** - OAuth access token secret got from Twitter
