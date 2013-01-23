@@ -22,6 +22,6 @@ The FortyTwo server can serve and handle JSON or XML data. It depends on `Conten
 
 ## API ready for use
 
-* ### [User management](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md)
+* [User management](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md)
 
-* ### [Custom data](https://github.com/funkyOne/fortyTwo.Docs/blob/master/CustomData.md)
+* [Custom data](https://github.com/funkyOne/fortyTwo.Docs/blob/master/CustomData.md)
