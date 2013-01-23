@@ -1,18 +1,17 @@
 #42 Web API
 
-**Staging URL:**
-```
-http://7bdeaa4e4d2f4fcaa4090f9fae5966df.cloudapp.net/api
-```
+## Making a request
+All URLs start with `http://fortytwo.cloudapp.net/api` it's our production URL. 
 
-**Production URL:**
-```
-http://fortytwo.cloudapp.net/api
-```
+For staging access URLs start with `http://7bdeaa4e4d2f4fcaa4090f9fae5966df.cloudapp.net/api`. Staging server version is usually more recent.
 
-## General info
 
-The FortyTwo server can serve and handle JSON or XML data. It depends on `ContenType` request header.
+## Authentication
+All request to the API must be signed. If you don't supply authentification info, you will get a `400 Bad Request`.
+Read the [authentication guide](https://github.com/funkyOne/fortyTwo.Docs/blob/master/ApplicationAuthentification.md) to get started.
+
+## XML or JSON, you decide
+The FortyTwo server can serve and handle JSON or XML data. It depends on `ContenType` request header you specify.
 * `Content-Type: application/json;charset=utf-8` for JSON
 * `Content-Type: application/xml;charset=utf-8` for XML
 
@@ -21,8 +20,8 @@ The FortyTwo server can serve and handle JSON or XML data. It depends on `Conten
 ### [Signing requests](https://github.com/funkyOne/fortyTwo.Docs/blob/master/ApplicationAuthentification.md)
 
 
-## Sections
+## API ready for use
 
-### [User Management](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md)
+* ### [User management](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md)
 
-### [Custom Data](https://github.com/funkyOne/fortyTwo.Docs/blob/master/CustomData.md)
+* ### [Custom data](https://github.com/funkyOne/fortyTwo.Docs/blob/master/CustomData.md)
