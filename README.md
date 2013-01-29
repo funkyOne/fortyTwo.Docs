@@ -3,7 +3,7 @@
 ## Making a request
 All URLs start with `http://fortytwo.cloudapp.net/api` it's our production URL. 
 
-For staging access URLs start with `http://7bdeaa4e4d2f4fcaa4090f9fae5966df.cloudapp.net/api`. Staging server version is usually more recent.
+For staging access URLs start with `http://37c16b6205f447d4b2e937bae01d30a6.cloudapp.net/api`. Staging server version is usually more recent.
 
 
 ## Authentication
