@@ -28,6 +28,8 @@ Fortytwo-AppSecret:7f989d7216f64921a4660762af60b102
 http://fortytwo.cloudapp.net/test/api/users?id=1&appSecret=7f989d7216f64921a4660762af60b102
 ```
 
+where `test` is your app key
+
 or 
 
 ```
