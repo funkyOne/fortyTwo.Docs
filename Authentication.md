@@ -3,13 +3,13 @@
 Any agent shouldn't be able to make API calls without proper authentication data. The server supports different ways to specify authentification data.
 
 It checks for values in the following order:
-  1. Headers
+  1. HTTP headers
   2. Query string parameters
-  3. URL value
+  3. URL path fragment
   
 First found value is used.
 
-##Using http headers
+##Using HTTP headers
 
 Agent should have `Fortytwo-AppKey` and `Fortytwo-AppSecret` header present in the call. These keys represent an app registered with Fortytwo.
   
@@ -38,7 +38,7 @@ http://fortytwo.cloudapp.net/api/users?id=1&appSecret=7f989d7216f64921a4660762af
 On successful login the client app will receive `userId` and `session token`. Every user-specific API method call
 should be signed with this data.
 
-##Using http headers 
+##Using HTTP headers 
 ```http 
 POST /users?id=1 HTTP/1.1
 Host: fortytwo.cloudapp.net
@@ -55,7 +55,7 @@ TBD
 
 #Authenticating a user 
 
-Every login method on successful login  sends back the following [user](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md#response) object in response.
+After login sends back the following [user](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md#response) object in response.
 
 
 ##By password
