@@ -52,8 +52,10 @@ POST /users
 ```
 
 ### Request body
+password
+: _Required_ **string** - user password
 email
-: _Optional_ **string** - an email
+: _Required_ **string** - an email
 
 ageGroup
 : _Optional_ **string** - `children` | `youngteen` | `teen` | `youngadult` | `adult` | `elderly` | `nodata`
@@ -63,6 +65,7 @@ gender
 
 ```json
 {
+   "password":"nbsd@ret%dfd",
    "email":"example@yahoo.com",
    "ageGroup":"teen",
    "gender":"male"
