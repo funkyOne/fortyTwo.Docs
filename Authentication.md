@@ -22,15 +22,16 @@ Fortytwo-AppSecret:7f989d7216f64921a4660762af60b102
 ...
 ```
 
-##Using URL and query parameters
+##Using URL path and query parameters
+If you go this way, you will always need to specify `appSecret` as query string parameter. With `appKey` you have two options. First is to specify it as a part of URL path :
 
 ```
 http://fortytwo.cloudapp.net/test/api/users?id=1&appSecret=7f989d7216f64921a4660762af60b102
 ```
 
-where `test` is your app key
+where `test` is your app key.
 
-or 
+The second way is to provide both parameters through query string:
 
 ```
 http://fortytwo.cloudapp.net/api/users?id=1&appSecret=7f989d7216f64921a4660762af60b102&appKey=test
