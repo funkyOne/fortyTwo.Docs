@@ -62,7 +62,7 @@ After login sends back the following [user](https://github.com/funkyOne/fortyTwo
 
 ##By password
 ```
-POST /login
+POST /login?password=123456&email=testuser@mail.com
 ```
 ### Query string parameters
 email
