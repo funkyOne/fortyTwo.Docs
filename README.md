@@ -39,9 +39,6 @@ If a Request message is sent with NO `Accept` header and no URL path extention b
 
 *Documentation is mostly in JSON, it's preferred and more documented.*
 
-### [Authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md)
-
-
 ## API ready for use
 
 * [User management](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md)
