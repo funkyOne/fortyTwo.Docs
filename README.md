@@ -31,7 +31,7 @@ Soon it will be possible to specify desired response format by url path extentio
 You will just need to append `.json` or `.xml` extention to the end of the url path,
 like `GET /users.json`
 or `GET /users/1.json?someParameter=someValue`
-or `GET /users/action.json`
+or `GET /users/someAction.json`
 
 ### "Content-type" HTTP header
 If a Request message is sent with NO `Accept` header and no URL path extention but with a `Content-Type` header (let’s say when you are using POST to post content), server will use the Content-Type header to decide about the Response media type to write.
