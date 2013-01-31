@@ -54,6 +54,7 @@ POST /users
 ### Request body
 password
 : _Required_ **string** - user password
+
 email
 : _Required_ **string** - an email
 
