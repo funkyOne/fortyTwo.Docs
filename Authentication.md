@@ -58,7 +58,7 @@ TBD
 
 #Authenticating a user 
 
-After login sends back the following [user](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md#response) object in response.
+On succesfull sign in operation, server sends back `LoginResult` object:
 ```json
   {
     "userId":"d067eda6-6414-430f-a0eb-c8455d648b59",
