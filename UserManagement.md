@@ -72,8 +72,17 @@ gender
    "gender":"male"
 }
 ```
+
 ###Response
 This will return `201 Created` along with the current JSON/XML representation of the user if the creation was a success. See the **Get user** endpoint for more info.
+
+if provided email is already used you will get `ErrorInfo` object in response
+```json
+{
+    "errorCode":100,
+    "errorMessage":"Email already in use"
+}
+```
 
 # Defining attributes for a user
 tbd
