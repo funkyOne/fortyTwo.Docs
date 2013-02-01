@@ -25,10 +25,7 @@ This should make sense to you as here the client is asking for a response in a s
 * `Accept: application/xml` for XML
 
 ###URL path extention
-*still under development*
-
-Soon it will be possible to specify desired response format by url path extention.
-You will just need to append `.json` or `.xml` extention to the end of the url path,
+It's possible to specify desired response format by url path extention. You will just need to append `.json` or `.xml` extention to the end of the url path,
 like `GET /users.json`
 or `GET /users/1.json?someParameter=someValue`
 or `GET /users/someAction.json`
