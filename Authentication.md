@@ -59,7 +59,13 @@ TBD
 #Authenticating a user 
 
 After login sends back the following [user](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md#response) object in response.
-
+```json
+  {
+    "userId":"d067eda6-6414-430f-a0eb-c8455d648b59",
+    "sessionToken":"1af5f70841f4a1eb139cf8ec66cce2c7",
+    "sessionExpiresAt":"2012-03-22T16:56:48-05:00"    
+  }	
+```
 
 ##By password
 ```
