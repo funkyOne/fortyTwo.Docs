@@ -71,6 +71,7 @@ On succesfull sign in operation, server sends back `LoginResult` object:
 ```
 POST /login?password=123456&email=testuser@mail.com
 ```
+
 ### Query string parameters
 email
 : _Required_ **string** - User email
