@@ -69,15 +69,15 @@ On succesfull sign in operation, server sends back `LoginResult` object:
 
 ##By password
 ```
-POST /login?password=123456&email=testuser@mail.com
+POST /login
 ```
 
-### Query string parameters
-email
-: _Required_ **string** - User email
-
-password
-: _Required_ **string** - User password
+```json
+  {
+    "password":"1121213",
+    "email":"user@email.com",   
+  }  
+```
 
 ##Facebook login
 ```
