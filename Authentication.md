@@ -75,7 +75,7 @@ POST /login
 ```json
   {
     "password":"1121213",
-    "email":"user@email.com",   
+    "email":"user@email.com"
   }  
 ```
 
