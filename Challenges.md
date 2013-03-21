@@ -1,21 +1,21 @@
 # Challenges
 
-Custom data endpoint allows you to store any data you want.
+
 
 ## Get custom data
-* `GET /customdata/` will return authentificated user's custom data
- depending on parameters specified
-
+* `GET /customdata/` 
 
 ## Create Challenge
 
 * `POST /newchallenges`
-```
+
+```json
 {
   "challengerId":"",
   "title":"New Challenge",
-  "expiration":""
+  "expirationDate":"2012-03-22T16:56:48-05:00"
 }
 ```
+
 user must be logged in to create a challenge
 
