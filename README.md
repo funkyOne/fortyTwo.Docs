@@ -15,7 +15,7 @@ All requests to the API must be signed. If you don't supply authentication info,
 Read the [authentication guide](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md) to get started.
 
 ## XML or JSON, you decide
-The FortyTwo server can serve and handle JSON or XML data. There are two main ways to tell what format you need.
+The FortyTwo server can serve and handle JSON or XML data. There are three ways to tell what format you want.
 
 ###"Accept" HTTP header
 If a Request message is sent with an `Accept` header, server will use the `Accept` header to decide about the Response media type to write. 
