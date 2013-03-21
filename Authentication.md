@@ -3,8 +3,8 @@
 Any agent shouldn't be able to make API calls without proper authentication data. The server supports different ways to specify authentification data.
 
 It checks for values in the following order:
-  1. HTTP headers
-  2. Query string parameters
+  1. Query string parameters
+  2. HTTP headers
   3. URL path fragment
   
 First found value is used.
@@ -32,7 +32,6 @@ http://fortytwo.cloudapp.net/test/api/users?id=1&appSecret=7f989d7216f64921a4660
 where `test` is your app key.
 
 The second way is to provide both parameters through query string:
-
 ```
 http://fortytwo.cloudapp.net/api/users?id=1&appSecret=7f989d7216f64921a4660762af60b102&appKey=test
 ```
@@ -53,7 +52,7 @@ Fortytwo-SessionToken: 7f989d7216f64921a4660762af60b102
 
 ##Using URL and query parameters
 ```
-TBD
+http://fortytwo.cloudapp.net/api/users?userId=d067eda6-6414-430f-a0eb-c8455d648b59&sessionToken=1af5f70841f4a1eb139cf8ec66cce2c7...
 ```
 
 #Authenticating a user 
