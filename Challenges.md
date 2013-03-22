@@ -5,9 +5,15 @@
 ## Get challenges
 * `GET /newchallenges?orderBy=likes&take=20` will return public challenges
 
-*orderBy* - likes | published
+*orderBy* - likes | published(default)
 
-parameters are optional
+both parameters are optional
+
+## Get user challenges
+* `GET /newchallenges/my?orderBy=likes&take=20` will return all user's challenges
+*request must be signed with sessionKey*
+
+parameters are same as in get public challenges method
 
 ## Create Challenge
 
