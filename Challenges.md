@@ -11,6 +11,7 @@ both parameters are optional
 
 ## Get user challenges
 * `GET /newchallenges/my?orderBy=likes&take=20` will return all user's challenges
+
 *request must be signed with sessionKey*
 
 parameters are same as in get public challenges method
