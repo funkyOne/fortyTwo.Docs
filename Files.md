@@ -10,4 +10,13 @@ Content-Disposition: form-data; name="file"; filename="c:\Users\FortyTwoUser\Doc
 Content-Type: text/plain
 ```
 
-`Name` parameter of `Content-Disposition` will be used as an id of the file in scope of the parent entity.
+`Name` parameter of `Content-Disposition` will be used as an id of the file in scope of the parent entity. 
+So it must be unique within the entity scope. 
+
+For example if your entity is supposed to have a screenshot, name your screenshot as `screenshot` when upoading
+and use this name when you need to get screenshot of an entity.
+
+Soon we will add `tags` functionality to files. So it will be easier to store and get multiple files of same "type" within entity (or in global scope).
+(ie. if entity can have more than one screenshots - get all entity files with tag `screenshot`)
+
+It's important to specify correct `Content-Type` also, it will be used by file storage to serve the uploaded file.
