@@ -14,7 +14,7 @@ Content-Type: text/plain
 So it must be unique within the entity scope. 
 
 For example if your entity is supposed to have a screenshot, name your screenshot as `screenshot` when upoading
-and use this name when you need to get screenshot of an entity.
+and use this name when you need to pick out the screenshot from the entity files.
 
 Soon we will add `tags` functionality to files. So it will be easier to store and get multiple files of same "type" within entity (or in global scope).
 (ie. if entity can have more than one screenshots - get all entity files with tag `screenshot`)
