@@ -1,9 +1,13 @@
 # Challenges
+*Base url `/newchallenges` is temporary. Soon will be merged and moved to `/challenges`*
 
 
+## Get challenges
+* `GET /newchallenges?orderBy=likes&take=20` will return public challenges
 
-## Get custom data
-* `GET /customdata/` 
+*orderBy* - likes | published
+
+parameters are optional
 
 ## Create Challenge
 
@@ -17,7 +21,7 @@
 }
 ```
 
-user must be logged in to create a challenge
+*user must be logged in to create a challenge*
 
 in respone you will get `EntityIdInfo` object
 ```json
