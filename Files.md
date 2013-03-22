@@ -1,5 +1,6 @@
 #Files
 
+## Upload file to entity
 `POST /files?entityId=2343434&entityType=challenge` will upload and add file to an entity
 
 Expects `multipart/form-data` message. 
