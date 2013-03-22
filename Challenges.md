@@ -21,8 +21,9 @@ parameters are same as in get public challenges method
 
 ```json
 {
-  "challengerId":"",
+  "receivingUserId":"c7a2fa33-cb74-4831-b324-6fcf77d1b682",
   "title":"New Challenge",
+  "message":"beat that!",
   "expirationDate":"2012-03-22T16:56:48-05:00"
 }
 ```
