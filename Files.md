@@ -3,7 +3,7 @@
 `POST /files?entityId=2343434&entityType=challenge` will upload and add file to an entity
 
 Expects `multipart/form-data` message. 
-Every part of which is be a filepart with following headers
+Every part of which is a filepart with following headers
 
 ```
 Content-Disposition: form-data; name="file"; filename="c:\Users\FortyTwoUser\Documents\test.txt"
