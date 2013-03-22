@@ -19,3 +19,12 @@
 
 user must be logged in to create a challenge
 
+in respone you will get `EntityIdInfo` object
+```json
+{
+  "entityId":345678987654,
+  "entityType":"challenge"
+}
+```
+
+After creating chanllenge you might want to add files to it using [files api](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Files.md) .
