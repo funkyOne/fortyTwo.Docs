@@ -17,7 +17,7 @@ So it must be unique within the entity scope.
 For example if your entity is supposed to have a screenshot, name your screenshot as `screenshot` when upoading
 and use this name when you need to pick out the screenshot from the entity files.
 
-Soon we will add `tags` functionality to files. So it will be easier to store and get multiple files of same "type" within an entity (or in global scope).
-(ie. if an entity can have multiple screenshots - get all entity screenshots by tag `screenshot`)
+Soon we will add `type` to files. So it will be easier to store and get multiple files of same `type` within an entity (or in global scope).
+(ie. if an entity can have multiple screenshots - store tham with type `screenshot`, and then get all entity screenshots by this type)
 
 It's important to specify correct `Content-Type` also, it will be used by file storage to serve the uploaded file.
