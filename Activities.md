@@ -2,30 +2,29 @@
 
 ## Get all activities 
 ```
-GET /activities/all&orderBy=likes&take=20
+GET /activities/all?orderBy=likes&take=20
 ```
 
 ### Parameters
-- **orderBy** _(optional)_ — Photo stream to be retrieved. Default _published_. 
+- **orderBy** _(optional)_ — Sorting field. Default _published_. 
   
   ###### Recognized values:
-  - 'published' — Return activities chronologically, starting from newest.
-  - 'likes' — Return activities sorted by likes count, most liked first.
+  - 'published' — sort by publish date, most recent first.
+  - 'likes' — sort by likes count, most liked first.
 - **take** _(optional)_ — how many activites to return. Default is 20.
 
 ## Get activities issued by user
 ```
 GET /activities/my?orderBy=likes&take=20
 ``` 
-
 will return all user's challenges
 
 ### Parameters
-- **orderBy** _(optional)_ — Photo stream to be retrieved. Default _published_. 
+- **orderBy** _(optional)_ — Sorting field. Default _published_. 
   
   ###### Recognized values:
-  - 'published' — Return activities chronologically, starting from newest.
-  - 'likes' — Return activities sorted by likes count, most liked first.
+  - 'published' — sort by publish date, most recent first.
+  - 'likes' — sort by likes count, most liked first.
 - **take** _(optional)_ — how many activites to return. Default is 20.
 
 [Requires user authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
