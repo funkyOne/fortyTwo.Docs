@@ -27,7 +27,7 @@ will return all user's challenges
   - 'likes' — sort by likes count, most liked first.
 - **take** _(optional)_ — how many activites to return. Default is 20.
 
-[Requires user authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
+`[Requires user authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)`
 
 ## Create Challenge
 
