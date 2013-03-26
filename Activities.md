@@ -13,10 +13,9 @@ GET /activities/all&orderBy=likes&take=20
   - 'likes' — Return activities sorted by likes count, most liked first.
 - **take** _(optional)_ — how many activites to return. Default is 20.
 
-######[Requires authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Files.md)
 ## Get activities issued by user
 ```
-GET /newchallenges/my?orderBy=likes&take=20
+GET /activities/my?orderBy=likes&take=20
 ``` 
 
 will return all user's challenges
@@ -29,12 +28,13 @@ will return all user's challenges
   - 'likes' — Return activities sorted by likes count, most liked first.
 - **take** _(optional)_ — how many activites to return. Default is 20.
 
-*request must be signed with sessionKey*
-
+[Requires user authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
 
 ## Create Challenge
 
-* `POST /newchallenges`
+```
+POST /activities
+```
 
 ```json
 {
@@ -45,14 +45,14 @@ will return all user's challenges
 }
 ```
 
-*user must be logged in to create a challenge*
+[Requires user authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
 
 in respone you will get `EntityIdInfo` object
 ```json
 {
   "entityId":345678987654,
-  "entityType":"challenge"
+  "entityType":"activity"
 }
 ```
 
-After creating chanllenge you might want to add files to it using [files api](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Files.md) .
+After creating activity you might want to add files to it using [files API](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Files.md) .
