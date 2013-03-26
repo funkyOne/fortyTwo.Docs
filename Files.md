@@ -14,7 +14,7 @@ Content-Type: text/plain
 `Name` parameter of `Content-Disposition` will be used as an id of the file in scope of the parent entity. 
 So it must be unique within the entity scope. 
 
-For example if your entity is supposed to have a screenshot, name your screenshot as `screenshot` when upoading
+For example if your entity is supposed to have a screenshot, name your file as `screenshot` when upoading
 and use this name when you need to pick out the screenshot from the entity files.
 
 Soon we will add `type` to files. So it will be easier to store and get multiple files of same `type` within an entity (or in global scope).
