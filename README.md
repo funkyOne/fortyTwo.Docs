@@ -39,9 +39,6 @@ If a Request message is sent with NO `Accept` header and no URL path extention b
 ## API ready for use
 
 * [User management](https://github.com/funkyOne/fortyTwo.Docs/blob/master/UserManagement.md)
-
-* [Custom data](https://github.com/funkyOne/fortyTwo.Docs/blob/master/CustomData.md)
- 
+* [Custom data](https://github.com/funkyOne/fortyTwo.Docs/blob/master/CustomData.md) 
 * [Activities](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Activities.md)
-
 * [Files](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Files.md)
