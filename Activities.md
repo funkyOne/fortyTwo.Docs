@@ -2,7 +2,7 @@
 
 ## Get all activities 
 ```
-GET /activities/all?orderBy=likes&take=20
+GET /activities/all?orderBy=likes&take=50
 ```
 
 ### Parameters
@@ -16,7 +16,7 @@ GET /activities/all?orderBy=likes&take=20
 ## Get activities issued by user
 [`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
 ```
-GET /activities/my?orderBy=likes&take=20
+GET /activities/my?orderBy=likes&take=50
 ``` 
 will return all user's challenges
 
