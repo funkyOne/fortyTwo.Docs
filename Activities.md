@@ -14,6 +14,7 @@ GET /activities/all?orderBy=likes&take=20
 - **take** _(optional)_ — how many activites to return. Default is 20.
 
 ## Get activities issued by user
+[`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
 ```
 GET /activities/my?orderBy=likes&take=20
 ``` 
@@ -27,10 +28,8 @@ will return all user's challenges
   - 'likes' — sort by likes count, most liked first.
 - **take** _(optional)_ — how many activites to return. Default is 20.
 
-`[Requires user authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)`
-
 ## Create Challenge
-
+[`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
 ```
 POST /activities
 ```
@@ -43,8 +42,6 @@ POST /activities
   "expirationDate":"2012-03-22T16:56:48-05:00"
 }
 ```
-
-[Requires user authentication](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
 
 in respone you will get `EntityIdInfo` object
 ```json
