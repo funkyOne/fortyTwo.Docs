@@ -9,19 +9,6 @@ It checks for values in the following order:
   
 First found value is used.
 
-##Using HTTP headers
-
-Agent should have `Fortytwo-AppKey` and `Fortytwo-AppSecret` header present in the call. These keys represent an app registered with Fortytwo.
-  
-```http 
-POST /users?id=1 HTTP/1.1
-Host: fortytwo.cloudapp.net
-  
-Fortytwo-AppKey:test
-Fortytwo-AppSecret:7f989d7216f64921a4660762af60b102
-...
-```
-
 ##Using URL path and query parameters
 If you go this way, you will always need to specify `appSecret` as query string parameter. With `appKey` you have two options. First is to specify it as a part of URL path :
 
@@ -34,6 +21,19 @@ where `test` is your app key.
 The second way is to provide both parameters through query string:
 ```
 http://fortytwo.cloudapp.net/api/users?id=1&appSecret=7f989d7216f64921a4660762af60b102&appKey=test
+```
+
+##Using HTTP headers
+
+Agent should have `Fortytwo-AppKey` and `Fortytwo-AppSecret` header present in the call. These keys represent an app registered with Fortytwo.
+  
+```http 
+POST /users?id=1 HTTP/1.1
+Host: fortytwo.cloudapp.net
+  
+Fortytwo-AppKey:test
+Fortytwo-AppSecret:7f989d7216f64921a4660762af60b102
+...
 ```
 
 # Specifying user session data
