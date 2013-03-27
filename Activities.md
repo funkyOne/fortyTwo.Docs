@@ -18,7 +18,7 @@ GET /activities/all?orderBy=likes&take=50
 ```
 GET /activities/my?orderBy=likes&take=50
 ``` 
-will return all user's challenges
+will return all user's activities
 
 ### Parameters
 - **orderBy** _(optional)_ — Sorting field. Default _published_. 
