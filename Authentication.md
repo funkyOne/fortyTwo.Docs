@@ -103,3 +103,11 @@ accessToken
 
 accessTokenSecret
 : _Required_ **string** - OAuth access token secret got from Twitter
+
+##Device Id Login
+```
+POST /login/device
+```
+### Query string parameters
+deviceId
+: _Required_ **string** - A sting that uniquely identifies user's device
