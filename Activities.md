@@ -1,8 +1,8 @@
 # Activities
 
-## Get all activities 
+## Get public activities 
 ```
-GET /activities/all?orderBy=likes&take=50
+GET /activities/public?orderBy=likes&take=50
 ```
 
 ### Parameters
