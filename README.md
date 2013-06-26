@@ -6,7 +6,7 @@ All URLs start with `http://fortytwo.cloudapp.net/test/api` where `test` is your
 
 Or with `http://fortytwo.cloudapp.net/api` if you use other ways to provide appKey the URL (see authentication section for details).
 
-For test / debug access hostname is `fe49022551b043c1bcc64a61c09882c0.cloudapp.net`. Staging server version is usually more recent, also we have request logging enabled there.
+For test / debug access hostname is `a560ed2aa9e84e3f8a63987e5c736270.cloudapp.net`. Staging server version is usually more recent, also we have request logging enabled there.
 
 
 ## Authentication
