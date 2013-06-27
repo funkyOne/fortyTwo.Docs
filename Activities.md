@@ -52,3 +52,14 @@ in respone you will get `EntityIdInfo` object
 ```
 
 After creating activity you might want to add files to it using [files API](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Files.md) .
+
+## Like an entity
+[`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
+```
+POST /activities/like?entityId=556&entityType=activity
+```
+will add like to an entity
+
+
+
+
