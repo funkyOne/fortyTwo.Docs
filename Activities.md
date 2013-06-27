@@ -61,5 +61,11 @@ POST /activities/like?entityId=556&entityType=activity
 will add like to an entity
 
 
+### Parameters
+- **entityId** _(required)_ — entity id.
+- **entityType** _(required)_ — entity type.
 
+  ###### Recognized values:
+    - 'activity'
+ 
 
