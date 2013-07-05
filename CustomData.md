@@ -13,12 +13,12 @@ There are 3 ways to use Custom data service.
 ### 2 Entity Attributes 
 * `GET /customdata?entityId=testEntity&entityType=activity` will return entity attributes
 
-##$ 3 User-scoped entity attributes
+### 3 User-scoped entity attributes
 * `GET /customdata?userId=testUSer&entityId=testEntity&entityType=activity` will return user-scoped entity attributes(for example, how many times a user tried to accomplish a challenge)
 
 
 ## Create custom data
-* `POST /customdata/` + specify auery parameter depending to requierd scope see `Get Custom Data`
+* `POST /customdata/` - specify query parameter depending to requierd scope see `Get Custom Data`
 
 ###Body
 ```json
