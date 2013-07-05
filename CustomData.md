@@ -2,6 +2,40 @@
 
 Custom data endpoint allows you to store any data you want.
 
-## Get custom data
-* `GET /customdata/` will return authentificated user's custom data
- depending on parameters specified
+There are 3 ways to use Custom data service.
+
+
+## Get Custom Data
+
+### 1 User Attributes 
+* `GET /customdata?userId=testUSer` will return user attributes
+
+### 2 Entity Attributes 
+* `GET /customdata?entityId=testEntity&entityType=activity` will return entity attributes
+
+##$ 3 User-scoped entity attributes
+* `GET /customdata?userId=testUSer&entityId=testEntity&entityType=activity` will return user-scoped entity attributes(for example, how many times a user tried to accomplish a challenge)
+
+
+## Create custom data
+* `POST /customdata/` + specify auery parameter depending to requierd scope see `Get Custom Data`
+
+###Body
+```json
+{
+"prop1":"value1",
+"prop2":"value2"
+}
+```
+
+
+## Update custom data
+* `PUT /customdata/`
+
+###Body
+```json
+{
+"prop1":"value1",
+"prop2":"value2"
+}
+```
