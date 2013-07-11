@@ -31,6 +31,8 @@ There are 3 ways to use Custom data service.
 
 ## Update custom data
 * `PUT /customdata/`
+ or
+* `POST /customdata/update`
 
 ###Body
 ```json
