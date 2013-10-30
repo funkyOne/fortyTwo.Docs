@@ -11,7 +11,7 @@ There are 3 ways to use Custom data service.
 * `GET /customdata?userId=testUSer` will return user attributes
 
 ### 2 Entity Attributes 
-* `GET /customdata?entityId=testEntity&entityType=activity` will return entity attributes
+* `GET /customdata?entityId=testEntity&entityType=activity` will return an entity attributes
 
 ### 3 User-scoped entity attributes
 * `GET /customdata?userId=testUSer&entityId=testEntity&entityType=activity` will return user-scoped entity attributes(for example, how many times a user tried to accomplish a challenge)
