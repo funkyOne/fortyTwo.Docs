@@ -37,7 +37,7 @@ Fortytwo-AppSecret:7f989d7216f64921a4660762af60b102
 ```
 
 # Specifying user session data
-On successful login your client app will receive `userId` and `session token`. Every user-specific API method call
+On a successful login your client app will receive `userId` and `session token`. Every user-specific API method call
 should be signed with this data.
 
 ##Using HTTP headers 
@@ -57,7 +57,7 @@ http://fortytwo.cloudapp.net/api/users?userId=d067eda6-6414-430f-a0eb-c8455d648b
 
 #Authenticating a user 
 
-On succesfull sign in operation, server sends back `LoginResult` object:
+On a successfull sign in operation, the server sends back `LoginResult` object:
 ```json
   {
     "userId":"d067eda6-6414-430f-a0eb-c8455d648b59",
