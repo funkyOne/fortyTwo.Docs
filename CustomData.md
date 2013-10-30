@@ -18,7 +18,7 @@ There are 3 ways to use Custom data service.
 
 
 ## Create custom data
-* `POST /customdata/` - specify query parameter depending to requierd scope see `Get Custom Data`
+* `POST /customdata/` - specify query parameters needed for required scope see `Get Custom Data`
 
 ###Body
 ```json
