@@ -8,12 +8,17 @@ There are 3 ways to use Custom data service.
 ## Get Custom Data
 
 ### 1 User Attributes 
+[`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
+
 * `GET /customdata?userId=testUSer` will return user attributes
 
 ### 2 Entity Attributes 
+[`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
+
 * `GET /customdata?entityId=testEntity&entityType=activity` will return an entity attributes
 
 ### 3 User-scoped entity attributes
+[`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
 * `GET /customdata?userId=testUSer&entityId=testEntity&entityType=activity` will return user-scoped entity attributes(for example, how many times a user tried to accomplish a challenge)
 
 
