@@ -21,7 +21,7 @@ Custom data endpoint allows you to store any data you want. There are 3 scopes o
 
 
 ## Set custom data
-* `POST /customdata/`
+* `POST /customdata/` - single method to create and update custom data, works as "create or merge"
 specify query parameters for scope you need according to `Get Custom Data` section
 
 ###Body
