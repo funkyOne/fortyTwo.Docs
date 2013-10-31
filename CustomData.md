@@ -1,8 +1,6 @@
 # Custom data
 
-Custom data endpoint allows you to store any data you want.
-
-There are 3 ways to use Custom data service.
+Custom data endpoint allows you to store any data you want. There are 3 scopes of custom data.
 
 
 ## Get Custom Data
