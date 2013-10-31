@@ -9,7 +9,7 @@ There are 3 ways to use Custom data service.
 
 ### 1 User Attributes 
 [`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
-* `GET /customdata?userId=testUSer` will return user attributes
+* `GET /customdata?userId=755f8447-ab92-4b98-ab30-59cffd1ae989` will return user attributes
 
 `userId` is optional, if not specified customdata of currently logged in user will be returned
 
@@ -19,7 +19,7 @@ There are 3 ways to use Custom data service.
 
 ### 3 User-scoped entity attributes
 [`Requires user authentication`](https://github.com/funkyOne/fortyTwo.Docs/blob/master/Authentication.md#specifying-user-session-data)
-* `GET /customdata?userId=testUSer&entityId=testEntity&entityType=activity` will return user-scoped entity attributes(for example, how many times a user tried to accomplish a challenge)
+* `GET /customdata?userId=755f8447-ab92-4b98-ab30-59cffd1ae989&entityId=testEntity&entityType=activity` will return user-scoped entity attributes(for example, how many times a user tried to accomplish a challenge)
 
 
 ## Set custom data
@@ -34,4 +34,4 @@ There are 3 ways to use Custom data service.
 ```
 
 ## Update custom data
-use #Set custom data# to update. All properties get merged. So you can just specify only properties that must be updated. Nothing will get wiped out.
+use `Set custom data` to update. All properties get merged. So you can just specify only properties that must be updated. Nothing will get wiped out.
