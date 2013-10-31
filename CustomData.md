@@ -23,7 +23,8 @@ There are 3 ways to use Custom data service.
 
 
 ## Set custom data
-* `POST /customdata/` - specify query parameters needed for required scope see `Get Custom Data`
+* `POST /customdata/`
+specify query parameters for scope you need according to `Get Custom Data` section
 
 ###Body
 ```json
@@ -34,4 +35,4 @@ There are 3 ways to use Custom data service.
 ```
 
 ## Update custom data
-use `Set custom data` to update. All properties get merged. So you can just specify only properties that must be updated. Nothing will get wiped out.
+Use `Set custom data` to update. All properties get merged. So you can just specify only properties that must be updated. Nothing will get wiped out.
