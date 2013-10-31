@@ -37,22 +37,21 @@ Fortytwo-AppSecret:7f989d7216f64921a4660762af60b102
 ```
 
 # Specifying user session data
-On a successful login your client app will receive `userId` and `session token`. Every user-specific API method call
-should be signed with this data.
+On a successful login your client app will receive `session token`. Every user-specific API method call
+should be signed with it.
 
 ##Using HTTP headers 
 ```http 
 POST /users?id=1 HTTP/1.1
 Host: fortytwo.cloudapp.net
 
-Fortytwo-UserId: c7a2fa33-cb74-4831-b324-6fcf77d1b682
 Fortytwo-SessionToken: 7f989d7216f64921a4660762af60b102
 ...
 ```
 
 ##Using URL and query parameters
 ```
-http://fortytwo.cloudapp.net/api/users?userId=d067eda6-6414-430f-a0eb-c8455d648b59&sessionToken=1af5f70841f4a1eb139cf8ec66cce2c7...
+http://fortytwo.cloudapp.net/api/users?sessionToken=1af5f70841f4a1eb139cf8ec66cce2c7
 ```
 
 #Authenticating a user 
